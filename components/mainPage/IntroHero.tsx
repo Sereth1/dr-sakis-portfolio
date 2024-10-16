@@ -4,9 +4,9 @@ import ButtonMain from "./ButtonMain";
 
 export default function IntroHero() {
   return (
-    <div className="flex text-darkTeal bg-transparent  justify-around w-full pt-14">
+    <div className="flex text-darkTeal bg-transparent space-x-96   justify-around w-full pt-16">
       {/* Left Section */}
-      <div className="flex-shrink-0 p-5">
+      <div className="flex-shrink-0 p-0">
         <p className="text-3xl font-bold pb-10">Hi There</p>
         <p className="w-[450px] text-2xl">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi cumque,

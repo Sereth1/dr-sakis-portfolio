@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <div>
-      <div className="sticky flex justify-around space-x-10 pt-10 z-50">
+      <div className="sticky flex justify-around space-x-8 pt-10 gap-96 z-50">
         <h1 className="border border-darkTeal p-1 pl-8 pr-8 tracking-wide rounded-2xl text-3xl text-darkTeal">
           ANASTASIOS ARCHONTAKIS
         </h1>

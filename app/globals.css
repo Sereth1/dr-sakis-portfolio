@@ -35,3 +35,6 @@ code {
     text-wrap: balance;
   }
 }
+.container {
+  @apply max-w-screen-xl mx-auto px-20;
+}
