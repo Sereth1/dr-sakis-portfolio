@@ -1,3 +1,4 @@
+import AboutMe from "@/components/mainPage/AboutMe";
 import CenteredImage from "@/components/mainPage/CenteredImage";
 import IntroHero from "@/components/mainPage/IntroHero";
 import LargeTextWithEffect from "@/components/mainPage/LargeTextWithEffect";
@@ -8,6 +9,7 @@ export default function Home() {
       <IntroHero />
       <LargeTextWithEffect />
       <CenteredImage />
+      <AboutMe />
     </div>
   );
 }
