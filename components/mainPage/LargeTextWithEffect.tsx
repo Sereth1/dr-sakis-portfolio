@@ -20,13 +20,14 @@ export default function LargeText({
     gsap.fromTo(
       letterRefs.current,
       {
-        visibility: "hidden",
+        // visibility: "hidden",
         y: -600,
-        rotate: 360,
-        opacity: 0,
+
+        opacity: -1,
       },
       {
         y: 0,
+        rotate: 360,
         opacity: 1,
         stagger: staggerAmount,
         duration: animationDuration,
@@ -37,7 +38,7 @@ export default function LargeText({
   }, [animationDuration, staggerAmount]);
 
   return (
-    <div className="flex justify-center items-center w-full pt-96 pb-44 h-64">
+    <div className="flex justify-center items-center w-full pt-96 pb-44 h-64 overflow-hidden">
       <h1 className="text-[28vw] font-extrabold tracking-tight uppercase flex">
         {arr.map((letter, index) => (
           <span
