@@ -20,6 +20,7 @@ export default function LargeText({
     gsap.fromTo(
       letterRefs.current,
       {
+        visibility: "hidden",
         y: -600,
         rotate: 360,
         opacity: 0,
@@ -30,6 +31,7 @@ export default function LargeText({
         stagger: staggerAmount,
         duration: animationDuration,
         ease: "power3.out",
+        visibility: "visible",
       }
     );
   }, [animationDuration, staggerAmount]);
