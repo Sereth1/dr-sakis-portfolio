@@ -56,7 +56,7 @@ export default function LargeText({
               index > 1 && index <= 5
                 ? {
                     fillOpacity: 0,
-                    WebkitTextStroke: "1px black",
+                    WebkitTextStroke: "2px white",
                     WebkitTextStrokeWidth: "1px",
                     WebkitTextStrokeColor: "",
                     WebkitTextFillColor: "transparent",
