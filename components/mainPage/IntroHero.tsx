@@ -19,7 +19,7 @@ export default function IntroHero() {
         </div>
       </div>
       <div className="pt-32 pr-10 cursor-pointer">
-        <div className="border  h-auto self-start p-5 rounded-full">
+        <div className="border border-darkTeal  h-auto self-start p-5 rounded-full">
           <FaArrowDown size="2em" />
         </div>
       </div>
