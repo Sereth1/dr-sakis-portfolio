@@ -9,6 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        mintGreen: "rgba(224, 255, 239, 1)",
+        darkTeal: "rgba(19, 49, 60, 1)",
+        softCoral: "rgba(255, 156, 141, 1)",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
@@ -16,4 +19,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;
