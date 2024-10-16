@@ -4,7 +4,7 @@ import ButtonMain from "./ButtonMain";
 
 export default function IntroHero() {
   return (
-    <div className="flex text-darkTeal justify-around w-full pt-14">
+    <div className="flex text-darkTeal  justify-around w-full pt-14">
       {/* Left Section */}
       <div className="bg-mintGreen flex-shrink-0 p-5">
         <p className="text-3xl font-bold pb-10">Hi There</p>
@@ -19,7 +19,7 @@ export default function IntroHero() {
         </div>
       </div>
       <div className="pt-32 pr-10 cursor-pointer">
-        <div className="border border-darkTeal  h-auto self-start p-5 rounded-full">
+        <div className="border  h-auto self-start p-5 rounded-full">
           <FaArrowDown size="2em" />
         </div>
       </div>
