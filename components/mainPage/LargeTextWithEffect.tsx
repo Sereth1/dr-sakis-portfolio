@@ -1,6 +1,7 @@
 "use client";
-import React, { useEffect, useRef } from "react";
+import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { useRef } from "react";
 
 type Props = {
   arr?: string[];
@@ -15,7 +16,7 @@ export default function LargeText({
 }: Props) {
   const letterRefs = useRef<HTMLSpanElement[]>([]);
 
-  useEffect(() => {
+  useGSAP(() => {
     gsap.fromTo(
       letterRefs.current,
       {
