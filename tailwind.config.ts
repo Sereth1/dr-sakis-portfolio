@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        mintGreen: "rgba(224, 255, 239, 1)",
-        darkTeal: "rgba(19, 49, 60, 1)",
+        mintGreen: "rgba(224, 255, 238, 100)",
+        darkTeal: "rgba(19, 49, 61, 100)",
         softCoral: "rgba(255, 156, 141, 1)",
         background: "var(--background)",
         foreground: "var(--foreground)",

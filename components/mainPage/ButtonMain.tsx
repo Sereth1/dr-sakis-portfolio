@@ -4,13 +4,18 @@ import { FaArrowRight } from "react-icons/fa"; // Corrected import
 type ButtonProps = {
   text: string;
   onClick: () => void;
+  className?: string;
 };
 
-export default function ButtonMain({ text, onClick }: ButtonProps) {
+export default function ButtonMain({
+  text,
+  onClick,
+  className = "",
+}: ButtonProps) {
   return (
     <div>
       <button
-        className="bg-softCoral text-white rounded-xl p-2  transition-all"
+        className={`bg-softCoral ${className} text-white rounded-xl p-2  transition-all`}
         onClick={onClick}
       >
         <div className="flex items-center gap-2">

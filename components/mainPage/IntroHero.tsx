@@ -4,11 +4,11 @@ import ButtonMain from "./ButtonMain";
 
 export default function IntroHero() {
   return (
-    <div className="flex text-darkTeal bg-transparent space-x-96   justify-around w-full pt-16">
+    <div className="  md:flex text-center md:text-left text-darkTeal bg-transparent md:space-x-96 pt-5  md:justify-around md:w-full md:pt-[230px]">
       {/* Left Section */}
-      <div className="flex-shrink-0 p-0">
+      <div className=" md:flex-shrink-0 p-0 ">
         <p className="text-3xl font-bold pb-10">Hi There</p>
-        <p className="w-[450px] text-2xl">
+        <p className="md:w-[450px] pl-5 pr-5 md:pl-0 md:pr-0 text-lg md:text-lg">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi cumque,
           voluptas, perferendis facilis sit autem libero at ducimus obcaecati
           minus, saepe cum! Dignissimos ipsa voluptates laudantium officiis
@@ -18,7 +18,7 @@ export default function IntroHero() {
           <ButtonMain onClick={() => null} text="Contact me" />
         </div>
       </div>
-      <div className="pt-32 pr-10 cursor-pointer">
+      <div className=" pt-32 pr-10 cursor-pointer hidden md:block">
         <div className="border border-darkTeal  h-auto self-start p-5 rounded-full">
           <FaArrowDown size="2em" />
         </div>
