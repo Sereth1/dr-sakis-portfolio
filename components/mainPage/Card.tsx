@@ -97,7 +97,7 @@ export default function Card({
           color === "darkTeal" ? "bg-mintGreen" : "bg-darkTeal"
         } w-full h-full absolute top-0 left-0 z-10 md:hidden flex items-center justify-center`}
       >
-        dasojasdjo
+        <h1>{mainText}</h1>
       </div>
     </div>
   );
